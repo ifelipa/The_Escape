@@ -4,7 +4,7 @@ window.addEventListener("mouseover", function(){
     	console.log( Math.random());
 });
 window.addEventListener("mouseup", function(){
-    	console.log( Math.random());
+    	console.log("1");
 });
 
 function getSelectedText() {
