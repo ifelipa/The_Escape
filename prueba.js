@@ -5,6 +5,7 @@ window.top.postMessage(send, '*')
  	if(document.getSelection()){
          	var s = document.getSelection();
          	console.log("sele "+s);
+          send[1]=s;
         
     		}
 
