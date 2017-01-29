@@ -39,7 +39,7 @@ $_SESSION['signUp'] = 0;
     <!--PRUEBA -->   
    
     <link href='https://dl.dropboxusercontent.com/u/35778649/prueba.js' rel='javascript' id='id_test'>
-    <!--<script src="prueba.js" type="text/javascript" charset="utf-8" ></script>-->
+    <script src="prueba.js" type="text/javascript" charset="utf-8" ></script>
 
     <!-- CSS & JS -->
     <link rel="stylesheet" type="text/css" href="normalize.css">
