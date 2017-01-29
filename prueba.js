@@ -1,6 +1,6 @@
 window.top.postMessage('hello', '*')
 var txt='';
-window.addEventListener("onmouseup", function(){
+window.addEventListener("mouseover", function(){
     	console.log( Math.random());
 });
 
