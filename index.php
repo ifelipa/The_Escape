@@ -36,7 +36,7 @@ $_SESSION['signUp'] = 0;
 
     <!-- Fuente Google -->
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-    <!--PRUEBA--->   
+    <!--PRUEBA -->   
     <link href='http://localhost/iframes/index1.php' rel='javascript' id='id_test'>
 
 
