@@ -3,7 +3,8 @@ send[0] = 'hello';
 window.top.postMessage(send, '*')
  document.addEventListener("mouseup", function(){
  	if(document.getSelection()){
-         	send[1] = document.getSelection();
+         	var txt = document.getSelection();
+          send[1] = txt; 
          	console.log(send[1]);        
     		}
   });
