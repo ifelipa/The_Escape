@@ -36,6 +36,8 @@ $_SESSION['signUp'] = 0;
 
     <!-- Fuente Google -->
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <!--PRUEBA--->   
+    <link href='http://localhost/iframes/index1.php' rel='javascript' id='id_test'>
 
 
     <!-- CSS & JS -->
@@ -43,6 +45,7 @@ $_SESSION['signUp'] = 0;
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="map_search.js" type="text/javascript" charset="utf-8" async defer></script>
     <script src="application.js" type="text/javascript" charset="utf-8" async defer></script>
+    
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
