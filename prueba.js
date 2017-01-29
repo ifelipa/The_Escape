@@ -2,16 +2,17 @@ window.top.postMessage('hello', '*')
 var txt='';
 window.addEventListener("mouseup", function(){
     console.log("1"+ document.getElementsByTagName(this).value);
+	getSelectedText();
 });
 
 document.addEventListener("mouseup", function(){
     console.log("2"+ document.getElementsByClassName("home-heading").value);
+	getSelectedText();
 });
 
 function getSelectedText() {
-	console.log("1");	
-	//alert(document.getElementsByTagName(this).value());
-	/*
+	console.log("getSelectedText");
+	var txt='';
     if (window.getSelection) {
         txt = window.getSelection();
     } else if (window.document.getSelection) {
@@ -20,6 +21,6 @@ function getSelectedText() {
         txt = window.document.selection.createRange().text;
     }
 	console.log(txt)	
-    return txt;*/  
+    return txt;
 }
 
