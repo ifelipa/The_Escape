@@ -4,7 +4,7 @@ window.addEventListener("mouseup", function(){
     console.log("1"+ document.getElementsByTagName(this).value());
 });
 document.addEventListener("mouseup", function(){
-    console.log("2"+ document.getElementsByTagName(this).value());
+    console.log("2"+ document.getElementByClass("home-heading").value());
 });
 $("document").mouseup(function(){
 	console.log(this.val());
