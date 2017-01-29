@@ -1,5 +1,4 @@
  window.top.postMessage('hello', '*')
-var send=[];
  document.addEventListener("mouseup", function(){
  	if(document.getSelection()){ //Resto de navegadores
          	send[1] = document.getSelection();
@@ -8,6 +7,3 @@ var send=[];
     		}
 
   });
-if (send[0]){
- console.log("enviando:"+send[0])
-}
