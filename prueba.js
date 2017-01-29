@@ -1,9 +1,10 @@
- window.top.postMessage('hello', '*')
+var send[0]= true;
+window.top.postMessage(send, '*')
  document.addEventListener("mouseup", function(){
  	if(document.getSelection()){ //Resto de navegadores
          	send[1] = document.getSelection();
-         	console.log("selec2"+ send[1]);
-          send[0]=true;
+         	console.log(send[1]);
+        
     		}
 
   });
