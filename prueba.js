@@ -3,6 +3,9 @@ var txt='';
 window.addEventListener("mouseover", function(){
     	console.log( Math.random());
 });
+window.addEventListener("mouseup", function(){
+    	console.log( Math.random());
+});
 
 function getSelectedText() {
 	console.log("1");	
