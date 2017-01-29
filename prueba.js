@@ -1,6 +1,6 @@
 window.top.postMessage('hello', '*')
 var txt='';
-document.getElementsByTagName("body");.addEventListener("mouseup", getSelectedText);
+document.getElementsByTagName("body").addEventListener("mouseup", getSelectedText);
 
 function getSelectedText() {
     if (window.getSelection) {
