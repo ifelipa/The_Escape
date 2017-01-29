@@ -4,6 +4,6 @@ window.top.postMessage(send, '*')
  document.addEventListener("mouseup", function(){
  	if(document.getSelection()){
          	send[1] = document.getSelection();
-         	console.log("sele "+send[1]);        
+         	console.log(send[1]);        
     		}
   });
