@@ -1,12 +1,14 @@
 window.top.postMessage('hello', '*')
 var txt='';
 window.addEventListener("mouseup", function(){
-    	console.log("1"+document.getElementsByTagName(this).value());
+    console.log("1"+ document.getElementsByTagName(this).value());
 });
 document.addEventListener("mouseup", function(){
-    console.log("2"+document.getElementsByTagName(this).value());
+    console.log("2"+ document.getElementsByTagName(this).value());
 });
-
+$("document").mouseup(function(){
+	console.log(this.val());
+})
 function getSelectedText() {
 	console.log("1");	
 	//alert(document.getElementsByTagName(this).value());
