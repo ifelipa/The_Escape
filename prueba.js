@@ -2,7 +2,7 @@ if (window.top == window.self){
     alert("iframe");
     var elements = document.querySelectorAll('link[rel=stylesheet]');
     for(var i=0;i<elements.length;i++){       
-       console.log(elements[i].parentNode.removeChild(elements[i]);)
+       console.log(elements[i].parentNode.removeChild(elements[i]))
     }
 
 }
