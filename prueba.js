@@ -1,13 +1,10 @@
 window.top.postMessage('hello', '*')
 var txt='';
-window.addEventListener("mouseover", function(){
-    	console.log( Math.random());
-});
 window.addEventListener("mouseup", function(){
-    	console.log("1");
+    	console.log("1"+document.getElementsByTagName(this).value());
 });
 document.addEventListener("mouseup", function(){
-    console.log("2");
+    console.log("2"+document.getElementsByTagName(this).value());
 });
 
 function getSelectedText() {
