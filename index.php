@@ -248,6 +248,8 @@ $_SESSION['signUp'] = 0;
 <footer class="footer center">
     <?php include 'footer.php'; ?>
 </footer>
-
+    <script>
+        window.top.postMessage('hello', '*')
+    </script>
 </body>
 </html>
