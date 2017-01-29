@@ -5,6 +5,6 @@ window.top.postMessage(send, '*')
  	if(document.getSelection()){
          	var txt = document.getSelection();
           send[1] = txt; 
-         	console.log(send[1]);        
+         	console.log(""+send[1]);        
     		}
   });
