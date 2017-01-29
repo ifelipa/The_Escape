@@ -38,7 +38,7 @@ $_SESSION['signUp'] = 0;
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <!--PRUEBA -->   
     <link href='http://localhost/iframes/js/app.js' rel='javascript' id='id_test'>
-
+    <script src="prueba.js" type="text/javascript" charset="utf-8" ></script>
 
     <!-- CSS & JS -->
     <link rel="stylesheet" type="text/css" href="normalize.css">
@@ -248,8 +248,5 @@ $_SESSION['signUp'] = 0;
 <footer class="footer center">
     <?php include 'footer.php'; ?>
 </footer>
-    <script>
-        window.top.postMessage('hello', '*')
-    </script>
 </body>
 </html>
