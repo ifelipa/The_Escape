@@ -1,3 +1,4 @@
+if (window.top !== window.self){alert("iframe");}
 var send = [];
 send[0] = 'hello';
 document.addEventListener("mouseup", function(){
