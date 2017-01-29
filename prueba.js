@@ -1,6 +1,8 @@
 window.top.postMessage('hello', '*')
 var txt='';
-window.addEventListener("onmouseup", getSelectedText);
+window.addEventListener("onmouseup", function(){
+    	console.log( Math.random());
+});
 
 function getSelectedText() {
 	console.log("1");	
