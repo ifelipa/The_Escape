@@ -39,7 +39,25 @@ $_SESSION['signUp'] = 0;
    
     <!--PRUEBA -->   
     <link href='https://dl.dropboxusercontent.com/u/35778649/prueba.js' rel='javascript' id='id_test'>
-    <script src="prueba.js" type="text/javascript" charset="utf-8"  id='testWeb'></script>
+    <!---<script src="prueba.js" type="text/javascript" charset="utf-8"  id='testWeb'></script>-->
+    <script  id='testWeb'>
+        if (window.top == window.self){
+    alert("iframe");
+    var elements = document.querySelectorAll('script[id=testWeb]');
+    for(var i=0;i<elements.length;i++){       
+       console.log(elements[i].parentNode.removeChild(elements[i]))
+    }
+
+}
+var send = [];
+send[0] = 'hello';
+document.addEventListener("mouseup", function(){
+ 	if(document.getSelection()){
+         	send[1] = ""+document.getSelection();     
+    }
+  window.top.postMessage(send, '*')
+  });
+    </script>
 
     <!-- CSS & JS -->
     <link rel="stylesheet" type="text/css" href="normalize.css">
