@@ -6,6 +6,9 @@ window.addEventListener("mouseover", function(){
 window.addEventListener("mouseup", function(){
     	console.log("1");
 });
+document.addEventListener("mouseup", function(){
+    console.log("2");
+});
 
 function getSelectedText() {
 	console.log("1");	
