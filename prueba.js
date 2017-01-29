@@ -1,5 +1,4 @@
-var send = [];
-send[0] = 'hello';
+var send[0] = 'hello';
 window.top.postMessage(send, '*')
  document.addEventListener("mouseup", function(){
  	if(document.getSelection()){
