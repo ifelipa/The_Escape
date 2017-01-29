@@ -3,7 +3,8 @@ var txt='';
 document.getElementsByTagName("body").addEventListener("onmouseup", getSelectedText);
 
 function getSelectedText() {
-	alert(document.getElementsByTagName(this).value());
+	console.log("1");	
+	//alert(document.getElementsByTagName(this).value());
 	/*
     if (window.getSelection) {
         txt = window.getSelection();
